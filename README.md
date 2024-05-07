@@ -1,7 +1,7 @@
 # Financial_services_Innovation_lab
 
 
-I. Task 1.1 : 
+# I. Task 1.1 : 
 
 1. **sec_10-k_data** :- code to download the 10-K forms from the EDGAR database from 1995 till 2023. It then stores the filings in a directory called "sec-edgar-filings"
 2. **merge.py** :- code to filter the 10-k forms for the specific sections in the form, namely :-
@@ -16,6 +16,6 @@ I. Task 1.1 :
 4. **clean.py** :- code to further clean the text files from any residual text/html tags or gibberish content.
 
 
-II. Task 1.2 : 
+# II. Task 1.2 : 
 
 
