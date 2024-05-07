@@ -1,0 +1,5 @@
+sec_edgar_downloader
+os
+re
+bs4
+PIL
