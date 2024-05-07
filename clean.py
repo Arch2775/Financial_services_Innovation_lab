@@ -11,17 +11,17 @@ def remove_specified_items(input_file_path, output_file_path):
 
     item_pattern = re.compile(pattern, re.DOTALL)
 
-    # Remove specified items from the content
+ 
     cleaned_content = re.sub(item_pattern, '', content)
 
-    # Write the cleaned content to a new file
+    
     with open(output_file_path, 'w', encoding='utf-8') as output_file:
         output_file.write(cleaned_content)
 
-# List of input files and corresponding output files
+
 input_files = [r'C:\Users\archishman vb\OneDrive\Desktop\Georgia_Tech\sec-edgar-filings\AAPL_10K_filtered_combined.txt', r'C:\Users\archishman vb\OneDrive\Desktop\Georgia_Tech\sec-edgar-filings\AMZN_10K_filtered_combined.txt', r'C:\Users\archishman vb\OneDrive\Desktop\Georgia_Tech\sec-edgar-filings\NVDA_10K_filtered_combined.txt']
 output_files = ['aapl.txt', 'amzn.txt', 'nvda.txt']
 
-# Loop over all files and apply the function
+
 for input_file, output_file in zip(input_files, output_files):
     remove_specified_items(input_file, output_file)
