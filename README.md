@@ -12,10 +12,50 @@
    
    c. Item 8 - Financial Statements and Supplementary Data 
 
-   and stores them in text files names "{company}_10K_filtered_combined.txt"
+   and stores them in text files named
+
+     "{company}_10K_filtered_combined.txt"
 4. **clean.py** :- code to further clean the text files from any residual text/html tags or gibberish content.
 
 
 # II. Task 1.2 : 
+
+1. The cleaned text files are then fed to the Google Gemini 1.5 pro LLM model in the Google AI Studio to summarize the content, make inferences and present financial data in tables.
+
+   The model summarizes the content in Items 7,7A,8 to help users understand the company's fundamentals
+
+   The model is prompted to make inferences of the given company's 10-K on the basis of
+   
+      a. Gross Margin of the company for the past 3 years.
+
+      - **Gross margins** help investors assess a company’s profitability. 
+      - We can see how well each company converts sales to profits using this margin.
+      - It provides a benchmark for comparing a company’s performance with competitors.
+      
+
+      b. Table for net sales, operating expenses, cash flow from operations.
+
+      - **Net Sales**: Helps investors assess a company's growth potential and market position.
+      - **Operating Expenses**: Enables investors to gauge the efficiency and cost-effectiveness of a company's operations.
+      - **Cash Flow from Operations**: Provides insight into the company's ability to generate cash to sustain and grow its operations.
+
+      c. the company's assets and liabilities for the last 4 years.
+
+      - **Assets**: By examining the assets, investors can evaluate a company's ability to generate future profits and its capacity for growth and sustainability.
+      - **Liabilities**: The liabilities helps investors assess the company's financial risk and its ability to manage and fulfill financial obligations without compromising operational stability.
+
+      d. "what are the potential risk factors associated with this company?" 
+
+      - Evaluates the risks associated with the company w.r.t it's sector, competitors, geopolitical scenarios, supply-demand, economy and regulations.
+      -  Investors assess these risks to make informed decisions about the potential rewards and downsides of investing in a company.
+
+      the code for the above prompts and inferences is stored in "LLM_inferences" file.
+
+2. The tables obtained from the LLM_inferences is then plotted using mathplotlib. the code for which is present in "plots.ipynb"
+
+3. The frontend is created and deployed using streamlit, as it is simple to implement and deploy. (**app.py**)
+
+
+    
 
 
