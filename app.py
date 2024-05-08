@@ -37,7 +37,7 @@ def main():
 
     
     # Sidebar for interactions
-    st.sidebar.title('User Interactions')
+    st.sidebar.title('Companies')
     
     # Dropdown to select the stock in the sidebar
     selected_stock = st.sidebar.selectbox('Select Stock', options=['Amazon 📦','Nvidia 🖥️','GameStop 🎮'])
