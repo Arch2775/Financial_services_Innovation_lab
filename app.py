@@ -38,6 +38,7 @@ def main():
     
     # Embed image and text using HTML in markdown
     st.image(Image.open(image_url), caption='', use_column_width='always')
+    st.title('📊📈 Quantitative and Qualitative Analysis of SEC-10K filings from EDGAR Database')
 
 
 
