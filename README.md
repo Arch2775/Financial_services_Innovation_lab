@@ -58,7 +58,7 @@
 
 ## Demo
 
-https://financialservicesinnovationlab-u77mafyjsfwuwehggdu8lg.streamlit.app/
+https://10-k-edgar-analyzer.streamlit.app/
 
 ## Tech Stack 
 
