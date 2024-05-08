@@ -34,7 +34,7 @@ def read_inferences(file):
 def main():
 
     # URL of the image
-    image_url = "./hs.jpg"
+    image_url = "hs.jpg"
     
     # Embed image and text using HTML in markdown
     st.markdown(f"""
