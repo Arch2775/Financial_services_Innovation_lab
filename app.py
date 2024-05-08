@@ -37,11 +37,7 @@ def main():
     image_url = "hs.jpg"
     
     # Embed image and text using HTML in markdown
-    st.markdown(f"""
-        <div style="display: flex; align-items: center; gap: 10px;">
-            <img src="{image_url}" alt="Title Image" style="height: 50px;">
-        </div>
-        """, unsafe_allow_html=True)
+    st.image(Image.open(img_url), caption='', use_column_width='always')
 
 
 
