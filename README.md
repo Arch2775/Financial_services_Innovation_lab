@@ -56,6 +56,16 @@
 3. The frontend is created and deployed using streamlit, as it is simple to implement and deploy. (**app.py**)
 
 
+## Demo
+
+https://financialservicesinnovationlab-u77mafyjsfwuwehggdu8lg.streamlit.app/
+
+## Tech Stack 
+
+1. Frontend : Streamlit for UI and deployment as it is python-compatible and is easy to deploy.
+2. Backend : python is used for both the tasks, .ipynb notebook for plots.
+3. sec_edgar_downloader : package used to extract 10-k files from EDGAR database.
+
     
 
 
