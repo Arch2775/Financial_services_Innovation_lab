@@ -1,7 +1,4 @@
-# For downloading and managing SEC filings
 sec_edgar_downloader
-# For HTML parsing and text extraction from downloaded filings
 beautifulsoup4
 lxml
-# For handling images in your Streamlit app
-PIL
+Pillow
