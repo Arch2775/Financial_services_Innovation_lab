@@ -66,6 +66,20 @@ https://financialservicesinnovationlab-u77mafyjsfwuwehggdu8lg.streamlit.app/
 2. Backend : python is used for both the tasks, .ipynb notebook for plots.
 3. sec_edgar_downloader : package used to extract 10-k files from EDGAR database.
 
+
+## References
+
+1. https://www.youtube.com/watch?v=srOs3xH1sG4
+2. https://www.youtube.com/watch?v=SU1L6f0N6iw&t=536s
+3. https://www.youtube.com/watch?v=YL6KGYuEaSg&t=593s
+4. https://www.investopedia.com/terms/l/liability.asp
+5. https://einvestingforbeginners.com/gross-margins-daah/
+6. https://www.netsuite.com/portal/resource/articles/financial-management/gross-profit-margin.shtml
+7. https://sec-api.io/resources/extract-textual-data-from-edgar-10-k-filings-using-python
+8. https://www.investopedia.com/articles/fundamental-analysis/09/form-10k.asp
+9. https://www.investopedia.com/terms/1/10-k.asp
+10. https://sec-edgar-downloader.readthedocs.io/en/latest/#supported-sec-filing-types
+
     
 
 
