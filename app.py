@@ -3,25 +3,25 @@ from PIL import Image
 
 # Define the path to the data files
 inferences_files = {
-    'Amazon 📦': r'.\amzn_content\amzn_b.txt',
-    'Nvidia 🖥️': r'.\nvda_content\nvda_b.txt',
-    'GameStop 🎮': r'.\gme_content\gme_b.txt'
+    'Amazon 📦': r'.\amzn_b.txt',
+    'Nvidia 🖥️': r'.\nvda_b.txt',
+    'GameStop 🎮': r'.\gme_b.txt'
 }
 
 visualization_files = {
     'Amazon 📦': [
-        r'.\amzn_content\a.jpg',
-        r'.\amzn_content\b.jpg',
-        r'.\amzn_content\c.jpg'
+        r'.\a.jpg',
+        r'.\b.jpg',
+        r'.\c.jpg'
     ],
     'Nvidia 🖥️': [
-        r'.\nvda_content\nvda1.jpg',
-        r'.\nvda_content\nvda2.jpg'
+        r'.\nvda1.jpg',
+        r'.\nvda2.jpg'
     ],
     'GameStop 🎮': [
-        r'.\gme_content\gme1.jpg',
-        r'.\gme_content\gme2.jpg',
-        r'.\gme_content\gme3.jpg'
+        r'.\gme1.jpg',
+        r'.\gme2.jpg',
+        r'.\gme3.jpg'
     ]
 
 }
