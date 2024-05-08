@@ -1,15 +1,8 @@
 # For downloading and managing SEC filings
-sec-edgar-downloader==4.3.0
-
+sec_edgar_downloader==5.0.2
 # For HTML parsing and text extraction from downloaded filings
-beautifulsoup4==4.11.1
-lxml==4.8.0
-
-# For data manipulation and regular expressions
-regex==2022.3.2
-
-# For creating and running web applications
-streamlit==1.10.0
-
+beautifulsoup==4.12.0
+lxml==5.1.0
+re
 # For handling images in your Streamlit app
-Pillow==9.1.0
+PIL==9.4.0
