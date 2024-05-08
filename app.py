@@ -32,7 +32,17 @@ def read_inferences(file):
         return f.read()
 
 def main():
-    st.title('📊📈 Quantitative and Qualitative Analysis of SEC-10K filings from EDGAR Database')
+
+    # URL of the image
+    image_url = "./hs.jpg"
+    
+    # Embed image and text using HTML in markdown
+    st.markdown(f"""
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="{image_url}" alt="Title Image" style="height: 50px;">
+        </div>
+        """, unsafe_allow_html=True)
+
 
 
     
