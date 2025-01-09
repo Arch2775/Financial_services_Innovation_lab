@@ -1,6 +1,6 @@
 # Financial_services_Innovation_lab
 
-# Quantitative and Qualitative Analysis of SEC-10K filings
+## Quantitative and Qualitative Analysis of SEC-10K filings
 
 The SEC 10-K Analyzer is a tool designed to streamline the process of downloading, filtering, cleaning, and analyzing SEC 10-K filings from 1995 to 2023. Using Python, the project automates the extraction of specific sections such as Management’s Discussion and Analysis, Quantitative and Qualitative Disclosures About Market Risk, and Financial Statements and Supplementary Data. The filtered content is then cleaned to remove any residual text or HTML tags, ensuring high-quality text files for analysis.
 
