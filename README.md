@@ -1,5 +1,11 @@
 # Financial_services_Innovation_lab
 
+# Quantitative and Qualitative Analysis of SEC-10K filings
+
+The SEC 10-K Analyzer is a tool designed to streamline the process of downloading, filtering, cleaning, and analyzing SEC 10-K filings from 1995 to 2023. Using Python, the project automates the extraction of specific sections such as Management’s Discussion and Analysis, Quantitative and Qualitative Disclosures About Market Risk, and Financial Statements and Supplementary Data. The filtered content is then cleaned to remove any residual text or HTML tags, ensuring high-quality text files for analysis.
+
+Leveraging the Google Gemini 1.5 Pro LLM model, the analyzer summarizes key financial data and makes insightful inferences, such as gross margins, net sales, operating expenses, and cash flow from operations. The summarized data helps users understand a company's fundamentals and assess its performance against competitors. Additionally, the project includes visualization of this data using matplotlib, and a user-friendly frontend created with Streamlit for easy deployment and interaction.
+
 
 # I. Task 1.1 : 
 
